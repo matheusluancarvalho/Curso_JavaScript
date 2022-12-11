@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
 
     <style>
         * {
@@ -12,12 +12,25 @@
             padding: 0;
         }
 
-        #heading {
-            background: #e50914;
+        body{
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ac9aedf1-a687-4c5d-965c-2fc3eac84aea/b02b882e-4d72-4529-bad5-946a3c89faf3/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+            background-size: cover;
         }
 
-        #heading h1{
-            padding: 15px;
+        #heading {
+            background: rgba(0,0,0, 0.5);
+        }
+
+        #heading div {
+            width: 90%;
+            display: flex;
+            justify-content:space-between;
+            margin: 0 auto;
+            
+        }
+
+        #heading .h1{
+            padding: 15px 0;
             font-size: 20px;
             text-transform: uppercase;
         }
@@ -33,11 +46,16 @@
 </head>
 <body>
     <header id="heading">
-        <h1>
-            <a href="#">Netflix</a>
-        </h1>
+        <div>
+            <h1 class="h1">
+                <a href="#">Netflix</a>
+            </h1>
+    
+            <h2 class="h1">
+                <a href="#">Netflix</a>
+            </h2>
+        </div>
     </header>
 
-    <!--Teminou em 23:35-->
 </body>
 </html>
